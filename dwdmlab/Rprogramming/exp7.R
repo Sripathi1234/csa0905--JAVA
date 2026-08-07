@@ -1,0 +1,6 @@
+names <- c("siri","mahi","chiru")
+age <- c(25,26,27)
+marks <- c(88,78,25)
+df <- data.frame(names, age, marks)
+summary(df)
+write.csv(df, "student_data.csv", row.names = FALSE)
