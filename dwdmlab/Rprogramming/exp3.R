@@ -1,4 +1,0 @@
-x->num1
-y->num2
-z=x*y
-print(z)
